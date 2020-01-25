@@ -1,0 +1,19 @@
+{
+  "name": "exodus",
+  "version": "1.0.0",
+  "description": "A decentralized Item delivery system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adithyaanilkumar/EXODUS.git"
+  },
+  "author": "Adithya and Jagath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adithyaanilkumar/EXODUS/issues"
+  },
+  "homepage": "https://github.com/adithyaanilkumar/EXODUS#readme"
+}
