@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>UBER</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-push-2">
+          <h1 class="text-center">UBER</h1>
+          <hr/>
+          <br/>
+        </div>
+      </div>
+      <div id="loader">
+            <h2 class="text-center">Loading...</h2>
+            <center><div class="loading"></div></center>
+      </div>
+      <div id="regdriver" class="row" style="display: none;">
+        <div class="row">
+          <div class="form-group name1 col-md-6">
+              <label for="exampleInputEmail1" class="formText">Name</label>
+              <input type="text" class="form-control" id="drivername" aria-describedby="emailHelp" name="muverName">
+          </div>
+      </div>
+      <div class="row">
+          <div class="form-group name1 col-md-6">
+              <label for="exampleInputEmail1" class="formText">Phone-No</label>
+              <input type="text" class="form-control" id="phno" aria-describedby="emailHelp" name="muverName">
+          </div>
+      </div>
+      <div class="row">
+          <div class="form-group name1 col-md-6">
+              <label for="exampleInputEmail1" class="formText">License-No</label>
+              <input type="text" class="form-control" id="license" aria-describedby="emailHelp" name="muverName">
+          </div>
+      </div>
+      <br>
+      <button id="button" onclick = "App.regDriver();">Register</button>
+    </div>
+    <div id="registered" class="row" style="display: none;">
+            <h2 class="text-center">You have successfully registered</h2>
+    </div>
+    <div id="accountAddr" class="row">
+          
+    </div>
+
+  </div>
+
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/register.js"></script>
+  </body>
+</html>
