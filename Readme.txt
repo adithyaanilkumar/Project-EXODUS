@@ -1,6 +1,8 @@
-Decentralized Item Delivery Network
+EXODUS is a Decentralized Item Delivery Network based on Ethereum deployed on the Matic Network.
 
 The project aims to build and develop a decentralized Item delivery and logistics network.
+
+This basically a boot renting service.
 
 The prices are set according to a bidding model where the customers can bid against the driver for a lower a price.
 
